@@ -22,7 +22,7 @@ func main() {
 		fmt.Println()
 		return
 	}
-// dealing with
+
 	for _, char := range arguments {
 		if char < 32 || char > 126 {
 			fmt.Println("Characters not within the required ascii characters")
